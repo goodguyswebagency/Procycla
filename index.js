@@ -1,6 +1,7 @@
-import buttonsHover from "./modulesJavaScript/ButtonHover"
-import navigationScroll from "./modulesJavaScript/NavigationScroll";
-import setFormHeight from "./modulesJavaScript/FooterForm";
+import LenisSmoothScroll from "./modulesJavaScript/LenisSmoothScroll.js";
+import buttonsHover from "./modulesJavaScript/ButtonHover.js"
+import navigationScroll from "./modulesJavaScript/NavigationScroll.js";
+import setFormHeight from "./modulesJavaScript/FooterForm.js";
 
 /**************************/
 /* Set select placeholder */
@@ -31,6 +32,7 @@ function setSelectPlaceholder() {
 /************************************/
 
 document.addEventListener("DOMContentLoaded", () => {
+   LenisSmoothScroll();
    buttonsHover();
    setSelectPlaceholder();
    navigationScroll();
