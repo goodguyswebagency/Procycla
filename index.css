@@ -1,2 +1,10 @@
 @import url("./modulesCSS/ButtonHover.css");
 @import url("./modulesCSS/LinkUnderlineHover.css");
+
+/*************************************/
+/* Breadcrumbs last child color full */
+/*************************************/
+
+.g_breadcrumbs_wrapper > :nth-last-child(-n + 2) {
+   color: var(--_themes---text);
+}

@@ -1,0 +1,10 @@
+/*******************************/
+/* Testimonials swiper styling */
+/*******************************/
+
+.swiper-slide.is-testimonials {
+   opacity: 0.3;
+}
+.swiper-slide.is-testimonials.swiper-slide-active {
+   opacity: 1;
+}
