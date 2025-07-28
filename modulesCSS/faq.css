@@ -1,0 +1,22 @@
+.faq_slot_wrapper.is-open {
+   border-color: var(--swatch--black);
+}
+
+.faq_slot_wrapper.is-open .faq_slot_bottom {
+   grid-template-rows: 1fr;
+   opacity: 1;
+}
+
+.faq_slot_wrapper.is-open .faq_slot_button {
+   background-color: var(--swatch--black);
+   border-color: var(--swatch--black);
+   color: var(--swatch--white);
+}
+
+.faq_slot_wrapper.is-open .faq_slot_button-icon {
+   transform: rotateZ(180deg);
+}
+
+.faq_slot_wrapper:hover {
+  border-color: var(--swatch--black);
+}
