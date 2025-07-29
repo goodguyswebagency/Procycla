@@ -1,0 +1,7 @@
+.values_tab_wrapper.is-open .values_tab_bottom {
+   grid-template-rows: 1fr;
+}
+
+.values_tab_wrapper.is-open .values_tab_content {
+   opacity: 1;
+}

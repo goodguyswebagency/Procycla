@@ -1,5 +1,5 @@
-@import url("/modulesCSS/logosMarquee.css");
-@import url("/modulesCSS/faq.css");
+@import url("../modulesCSS/logosMarquee.css");
+@import url("../modulesCSS/faq.css");
 
 ._3d-showcase_hotspot_circle {
    width: 0.3rem;
