@@ -1,3 +1,7 @@
+/************/
+/* FAQ code */
+/************/
+
 .faq_slot_wrapper.is-open {
    border-color: var(--swatch--black);
 }
@@ -18,5 +22,5 @@
 }
 
 .faq_slot_wrapper:hover {
-  border-color: var(--swatch--black);
+   border-color: var(--swatch--black);
 }

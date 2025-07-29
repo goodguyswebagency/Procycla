@@ -1,5 +1,58 @@
-@import url("../modulesCSS/logosMarquee.css");
-@import url("../modulesCSS/faq.css");
+/*****************/
+/* Logos marquee */
+/*****************/
+
+.logos_marquee_wrapper.animate-left {
+   animation: logosMarqueeLeft linear infinite var(--logosMarqueeLeft, 30s);
+}
+.logos_marquee_wrapper.animate-right {
+   animation: logosMarqueeRight linear infinite var(--logosMarqueeRight, 30s);
+}
+
+@keyframes logosMarqueeLeft {
+   0% {
+      transform: translateX(0%);
+   }
+   100% {
+      transform: translateX(-100%);
+   }
+}
+
+@keyframes logosMarqueeRight {
+   0% {
+      transform: translateX(0%);
+   }
+   100% {
+      transform: translateX(100%);
+   }
+}
+
+/************/
+/* FAQ code */
+/************/
+
+.faq_slot_wrapper.is-open {
+   border-color: var(--swatch--black);
+}
+
+.faq_slot_wrapper.is-open .faq_slot_bottom {
+   grid-template-rows: 1fr;
+   opacity: 1;
+}
+
+.faq_slot_wrapper.is-open .faq_slot_button {
+   background-color: var(--swatch--black);
+   border-color: var(--swatch--black);
+   color: var(--swatch--white);
+}
+
+.faq_slot_wrapper.is-open .faq_slot_button-icon {
+   transform: rotateZ(180deg);
+}
+
+.faq_slot_wrapper:hover {
+   border-color: var(--swatch--black);
+}
 
 ._3d-showcase_hotspot_circle {
    width: 0.3rem;
