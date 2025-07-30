@@ -1,0 +1,7 @@
+.cms-hero_info_category_item::after {
+  content: ",";
+}
+
+.cms-hero_info_category_item:last-child::after {
+  content: "";
+}
