@@ -1,0 +1,7 @@
+.project-block_info_item::after {
+  content: ",";
+}
+
+.project-block_info_item:last-child::after {
+  content: "";
+}

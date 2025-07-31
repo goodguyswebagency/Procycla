@@ -1,0 +1,43 @@
+.is-list-starting {
+   opacity: 0;
+}
+
+/*****************/
+/* Logos marquee */
+/*****************/
+
+.logos_marquee_wrapper.animate-left {
+   animation: logosMarqueeLeft linear infinite var(--logosMarqueeLeft, 30s);
+}
+.logos_marquee_wrapper.animate-right {
+   animation: logosMarqueeRight linear infinite var(--logosMarqueeRight, 30s);
+}
+
+@keyframes logosMarqueeLeft {
+   0% {
+      transform: translateX(0%);
+   }
+   100% {
+      transform: translateX(-100%);
+   }
+}
+
+@keyframes logosMarqueeRight {
+   0% {
+      transform: translateX(0%);
+   }
+   100% {
+      transform: translateX(100%);
+   }
+}
+
+/*******************************/
+/* Testimonials swiper styling */
+/*******************************/
+
+.swiper-slide.is-testimonials {
+   opacity: 0.3;
+}
+.swiper-slide.is-testimonials.swiper-slide-active {
+   opacity: 1;
+}
