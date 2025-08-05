@@ -31,7 +31,7 @@ export default function processAnimation() {
             start: startValueIn,
             end: endValueOut,
             scrub: true,
-            markers: true,
+            markers: false,
          },
       });
 
