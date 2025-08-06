@@ -14,10 +14,10 @@ export default function processAnimation() {
       startValueOut = "top 35%";
       endValueOut = "top 0%";
    } else {
-      startValueIn = "top 85%";
+      startValueIn = "top 75%";
       endValueIn = "top 65%";
       startValueOut = "top 35%";
-      endValueOut = "top 10%";
+      endValueOut = "top 0%";
    }
 
    gsap.utils.toArray(".process_usp_wrapper").forEach((el) => {
