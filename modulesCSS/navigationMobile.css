@@ -1,0 +1,11 @@
+.navigation.is-open .navigation_brand {
+   color: var(--swatch--black);
+}
+
+.navigation.is-open .navigation_mobile-button_wrapper {
+   color: var(--swatch--black);
+}
+
+.navigation.is-open .navigation_links_link {
+   color: var(--swatch--black);
+}

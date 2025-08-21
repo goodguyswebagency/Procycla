@@ -2,6 +2,7 @@ import LenisSmoothScroll from "./modulesJavaScript/LenisSmoothScroll.js";
 import buttonsHover from "./modulesJavaScript/ButtonHover.js"
 import navigationScroll from "./modulesJavaScript/NavigationScroll.js";
 import setFormHeight from "./modulesJavaScript/FooterForm.js";
+import navigationMobile from "./modulesJavaScript/navigationMobile.js";
 
 /**************************/
 /* Set select placeholder */
@@ -37,4 +38,5 @@ document.addEventListener("DOMContentLoaded", () => {
    setSelectPlaceholder();
    navigationScroll();
    setFormHeight();
+   navigationMobile();
 });
